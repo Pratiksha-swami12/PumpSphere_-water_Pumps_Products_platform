@@ -1,0 +1,8 @@
+.agri-banner {
+    /* background: [color] [image] [repeat] [position] / [size] [attachment];
+ */
+  background: url('images/wireimg.jpg')center center / cover no-repeat ;
+
+  
+
+}

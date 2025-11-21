@@ -1,0 +1,175 @@
+
+
+
+
+
+
+/* Login Modal Overlay */
+.login-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Modal Content (form box) */
+.modal-content {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  width: 400px;
+  max-width: 95%;
+  position: relative;
+  animation: slideUp 0.4s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Close button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 18px;
+  font-size: 28px;
+  cursor: pointer;
+  color: #999;
+}
+
+.close-btn:hover {
+  color: #333;
+}
+
+/* Blur background */
+body.modal-open {
+  overflow: hidden;
+}
+/* Form Container */
+form.form-box {
+  display: none;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+form.form-box.login {
+  display: block; /* Login form is shown by default */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Form Heading */
+form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Input Box */
+.login-modal .input-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.login-modal .input-box  input {
+  width: 100%;
+  padding: 12px 40px 12px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.login-modal .input-box input:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 5px rgba(108, 99, 255, 0.4);
+}
+
+/* Label */
+.login-modal .input-box label {
+  position: absolute;
+  top: -10px;
+  left: 12px;
+  background: #fff;
+  padding: 0 4px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Icons */
+.input-box .icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+/* Remember/Forgot */
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.remember-forgot a {
+  text-decoration: none;
+  color: #6c63ff;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+form button {
+  width: 100%;
+  padding: 12px;
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+form button:hover {
+  background: #5848e5;
+}
+
+/* Register/Login Switch */
+.login-register {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.login-register a {
+  color: #6c63ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login-register a:hover {
+  text-decoration: underline;
+}

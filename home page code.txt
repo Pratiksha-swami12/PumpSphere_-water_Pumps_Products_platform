@@ -1,0 +1,413 @@
+Home page html code of project
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PumpSphere</title>
+  <!-- index css -->
+  <link rel="stylesheet" href="index.css"> 
+  <!-- login css -->
+  <link rel="stylesheet" href="Login.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <!-- navbar -->
+<nav class="navbar">
+
+      <div class="logo">
+        <img src="./images/PumpSphere-removebg-preview.png" alt="">
+      </div>
+      <div class="bx-menu" id="menu-icon"><i class="fa-solid fa-bars"></i></div>
+      <ul class="nav-list">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li class="dropdown">
+      <a href="#">Products <i class="fa-solid fa-angle-down"></i> </a>
+      <ul class="dropdown-menu">
+        <li><a href="AgriculturalProducts.html">Agricultural Pumps</a></li>
+        <li><a href="Domestic.html">Domestic Pumps</a></li>
+        <li><a href="submisrable.html">submersible Pumps</a></li>
+        <li><a href="#">Wires, Cables & pipes</a></li>
+        
+      </ul>
+    </li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+      <div class="nav-right">
+        <input type="text" placeholder="Search...." class="search-box">
+        <button class="login-btn"><i class="fa-solid fa-circle-user"></i>Login</button>
+        <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </nav>
+    <!-- ***************************************************** -->
+<!-- login page  -->
+<div class="cover_box">
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#">
+                    <!-- email -->
+                    <div class="input-box">
+                        <span class="icons"><ion-icon name="mail-outline"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <!-- password -->
+                     <div class="input-box">
+                        <span class="icons"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <!-- forget -->
+<div class="remember-forgot">
+    <label> <input type="checkbox">Remember me</label>
+    <a href="#">Forget password</a>
+</div>
+<button type="submit" class="btn">Login</button>
+<div class="login-register">
+    <p>Don't have an account? <a href="#" class="register-link">Rigister</a></p>
+</div>
+
+
+
+                </form>
+            </div>
+        </div>
+
+
+
+
+ <!-- **************************************************** -->
+  <!-- home -->
+  <section class="home swiper" id="home">
+    <div class="swiper-wrapper">
+      <!-- slide1 -->
+      <div class="swiper-slide container">
+        <div class="home-text">
+          <h1>Efficient, Durable Reliable </h1>
+          <h1> PumpSphere Pumps</h1>
+          <p>Built for performance. Made for reliability</p>
+          <a href="Product.html" class="btn">Explore Now<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <img src="./images/img4.png" alt="">
+      </div>
+      <!-- slide2 -->
+<div class="swiper-slide container">
+        <div class="home-text">
+          <h1>Efficient, Durable Reliable </h1>
+          <h1> PumpSphere Pumps</h1>
+          <p>Built for performance. Made for reliability</p>
+          <a href="Product.html" class="btn">Explore Now<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <img src="./images/img3.png" alt="">
+      </div>
+      <!-- slide3 -->
+       <div class="swiper-slide container">
+        <div class="home-text">
+           <h1>Efficient, Durable Reliable </h1>
+          <h1> PumpSphere Pumps</h1>
+          <p>Built for performance. Made for reliability</p>
+          <a href="Product.html" class="btn">Explore Now<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <img src="./images/img6.png" alt="" >
+      </div>
+      <!-- slide4 -->
+       <div class="swiper-slide container">
+        <div class="home-text">
+           <h1>Efficient, Durable Reliable </h1>
+          <h1> PumpSphere Pumps</h1>
+          <p>Built for performance. Made for reliability</p>
+          <a href="Product.html" class="btn">Explore Now<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <img src="./images/img7.jpeg" alt="">
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+  </section>
+<!-- ******************************************* -->
+ <section class="big-container">
+  <div class="heading">
+    <h1>Our Features</h1>
+  </div>
+<section class="hightlights">
+  <div class=" card card1">
+<img src="./images/f1.jpg" alt="">
+<p>Free Shipping</p>
+  </div>
+  <div class="card card2">
+<img src="./images/f2.jpg" alt="">
+<p>Online Order</p>
+  </div>
+  <div class="card card3">
+<img src="./images/f3.jpg" alt="">
+<p>Save Money</p>
+  </div>
+  <div class="card card4">
+<img src="./images/f4.jpg" alt="">
+<p>Promotion</p>
+  </div>
+  <div class="card card5">
+<img src="./images/f7.jpg" alt="">
+<p>Best Deals</p>
+  </div>
+  <div class="card card6">
+<img src="./images/f6.jpg" alt="">
+<p>F24/7 Support</p>
+  </div>
+</section>
+</section>
+<!-- ************************************************** -->
+<section class="product_category">
+  <div class=" product_heading">
+    <h1>Best-Selling Pumps</h1>
+    <p class="p_head">Discover our most trusted and high-performance pumps</p>
+  </div>
+  <div class="category_container">
+    <div class="category_card">
+      <img src="./images/agriimg.png" alt="">
+      <div class="text_card">
+        <h3>AGRICULTURAL PUMPS</h3>
+      <p class="cate">Reliable solutions for efficient farm irrigation and water supply</p>
+      <a href="AgriculturalProducts.html" class="view_btn">view More <i class="fa-solid fa-angles-right"></i> </a>
+      </div>
+    </div>
+    <div class="category_card">
+      <img src="./images/domesticimg.jpg" alt="">
+       <div class="text_card">
+        <h3>DOMESTIC PUMPS</h3>
+      <p class="cate">eliable solutions for efficient farm irrigation and water supply</p>
+      <a href="Domestic.html" class="view_btn">view More <i class="fa-solid fa-angles-right"></i> </a>
+      </div>
+    </div>
+    <div class="category_card">
+      <img src="./images/submarineimg.png" alt="">
+      <div class="text_card">
+        <h3>SUBMERSIBLE PUMPS</h3>
+      <p class="cate">eliable solutions for efficient farm irrigation and water supply</p>
+      <a href="#" class="view_btn">view More <i class="fa-solid fa-angles-right"></i> </a>
+      </div>
+    </div>
+    <div class="category_card">
+      <img src="./images/wireimg.jpg" alt="">
+      <div class="text_card">
+        <h3>WIRES,CABLES & PIPES</h3>
+      <p class="cate">eliable solutions for efficient farm irrigation and water supply</p>
+      <a href="#" class="view_btn">view More <i class="fa-solid fa-angles-right"></i> </a>
+      </div>
+      </div>
+      </div>
+</section>
+<!-- ******************************************** -->
+<section class="introvideo">
+ <div class="intro_content">
+   <div class="introHeading">
+    <h2>Empowering industries, farms, and homes with reliable, high-performance pumps.</h2>
+    <ul>
+      <li><i class="fa-solid fa-circle-check" style="color: #74C0FC;"></i>Advanced Technology Pumps</li>
+      <li><i class="fa-solid fa-circle-check" style="color: #74C0FC;"></i>Built to Last,Engineered for Efficiency</li>
+      <li><i class="fa-solid fa-circle-check" style="color: #74C0FC;"></i>Trusted by Thousands</li>
+    </ul>
+  </div>
+  <div class="videoframe">
+    <video src="./images/introVedio.mp4" autoplay controls muted loop></video>
+ </div>
+ </div>
+ 
+</section>
+<!-- ************************************************* -->
+<section class="testimonials">
+<div class="testi_heading">
+  <p class="para">OUR CUSTOMERS</p>
+  <h1 class="test_head">We deliver what we promise <br> See what clients are expressing about us</h1>
+</div>
+<div class="testi_slider">
+  <div class="testi_track">
+  <!-- card1 -->
+
+  <div class="testi_card">
+    <img src="./images/customer1.jpg" alt="">
+    <div class="stars">
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+    </div>
+    <p class="feedback">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, aspernatur eius? Ex quibusdam accusantium aliquid porro officiis, reprehenderit eveniet animi?</p>
+    <h2 class="test_name">asha swami</h2>
+    
+
+  </div>
+  <!-- card2 -->
+   <div class="testi_card">
+    <img src="./images/customer1.jpg" alt="">
+    <div class="stars">
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+    </div>
+    <p class="feedback">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, aspernatur eius? Ex quibusdam accusantium aliquid porro officiis, reprehenderit eveniet animi?</p>
+    <h2 class="test_name">asha swami</h2>
+    
+
+  </div>
+  <!-- card3 -->
+   <div class="testi_card">
+    <img src="./images/customer1.jpg" alt="">
+    <div class="stars">
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+    </div>
+    <p class="feedback">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, aspernatur eius? Ex quibusdam accusantium aliquid porro officiis, reprehenderit eveniet animi?</p>
+    <h2 class="test_name">asha swami</h2>
+    
+
+  </div>
+  <!-- card4 -->
+   <div class="testi_card">
+    <img src="./images/customer1.jpg" alt="">
+    <div class="stars">
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+    </div>
+    <p class="feedback">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, aspernatur eius? Ex quibusdam accusantium aliquid porro officiis, reprehenderit eveniet animi?</p>
+    <h2 class="test_name">asha swami</h2>
+    
+
+  </div>
+  <!-- card 5 -->
+   <!-- <div class="testi_card">
+    <img src="./images/customer1.jpg" alt="">
+    <div class="stars">
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+    </div>
+    <p class="feedback">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, aspernatur eius? Ex quibusdam accusantium aliquid porro officiis, reprehenderit eveniet animi?</p>
+    <h2 class="test_name">asha swami</h2>
+    
+
+  </div> -->
+</div>
+</div>
+
+</section>
+<!-- ***************************************************************** -->
+
+ <!-- Call to Action Section -->
+<section class="cta">
+  <div class="cta-content">
+    <h2>Looking for reliable and efficient water pumps?</h2>
+    <p>Browse our best-in-class smart pump solutions for agriculture, domestic, and industrial needs.</p>
+    <a href="Product.html" class="cta-btn">Explore Products <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+</section>
+<!-- *************************************************************** -->
+<!-- FAQ Section -->
+ <section class="faq-section">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-container">
+    <div class="faq">
+      <h3>🛠️ Do I need an expert to install the pump?</h3>
+      <p>No, most of our pumps are plug-and-play and come with clear instructions.</p>
+    </div>
+    <div class="faq">
+      <h3>📞 Do you provide support after purchase?</h3>
+      <p>Yes, our customer support is available 24/7 for troubleshooting or help.</p>
+    </div>
+    <div class="faq">
+      <h3>⚡Are your pumps energy-efficient?</h3>
+      <p>Absolutely. Our pumps are designed with advanced energy-saving technology.</p>
+    </div>
+    <div class="faq">
+      <h3>🚚 How long does delivery take?</h3>
+      <p>We deliver products across India within 3–7 business days, depending on your location.</p>
+    </div>
+  </div>
+</section>
+<!-- **************************************************** -->
+ <!-- Newsletter Signup Section -->
+<section class="newsletter">
+  <div class="newsletter-container">
+    <h2>🔔 Stay Updated!</h2>
+    <p>Subscribe to our newsletter and get the latest updates on new pumps, discounts, and water-saving tips.</p>
+    <form class="newsletter-form">
+      <input type="email" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</section>
+<!-- **************************************************** -->
+ <!-- bottom arrow -->
+  <section class="bottom_arrow">
+<i class="fa-solid fa-up-long"></i>
+
+  </section>
+ <!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <img src="./images/PumpSphere-removebg-preview.png" class="footer-logo" alt="">
+      <p>Your trusted partner for smart water pump solutions.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p><i class="fa-solid fa-phone"></i> +91 9876543210</p>
+      <p><i class="fa-solid fa-envelope"></i> support@pumpsphere.com</p>
+      <p><i class="fa-solid fa-location-dot"></i> Pune, Maharashtra, India</p>
+    </div>
+
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 PumpSphere. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+  <!-- login script js -->
+   <script src="Login.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

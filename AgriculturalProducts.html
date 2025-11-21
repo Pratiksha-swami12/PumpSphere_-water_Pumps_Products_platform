@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgiculturalProducts</title>
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="Login.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="AgiculturalProdusts.css">
+
+</head>
+
+<body>
+ 
+    <!-- Connect with us  -->
+  <div class="breadcrumb-section">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a> &gt; <span>AGRICULTURE PUMPS</span>
+    </div>
+    <a href="#contact" class="connect-btn">Connect With Us</a>
+  </div>
+  
+  <!-- login page  -->
+  <!-- Modal Overlay for Login/Register -->
+  <div class="login-modal" id="loginModal">
+    <div class="modal-content">
+      <!-- Close button -->
+      <span class="close-btn" id="closeModal">&times;</span>
+
+      <!-- Login Form -->
+      <form action="#" class="form-box login">
+        <h2>Login</h2>
+        <div class="input-box">
+          <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><i class="fa-solid fa-lock"></i></span>
+          <input type="password" required>
+          <label>Password</label>
+        </div>
+        <div class="remember-forgot">
+          <label><input type="checkbox">Remember me</label>
+          <a href="#">Forgot Password?</a>
+        </div>
+        <button type="submit">Login</button>
+        <div class="login-register">
+          <p>Don't have an account?
+            <a href="#" class="register-link">Register</a>
+          </p>
+        </div>
+      </form>
+
+      <!-- Register Form -->
+      <form action="#" class="form-box register">
+        <h2>Register</h2>
+        <div class="input-box">
+          <span class="icon"><i class="fa-solid fa-user"></i></span>
+          <input type="text" required>
+          <label>Username</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><i class="fa-solid fa-lock"></i></span>
+          <input type="password" required>
+          <label>Password</label>
+        </div>
+        <div class="remember-forgot">
+          <label><input type="checkbox">Agree to terms</label>
+        </div>
+        <button type="submit">Register</button>
+        <div class="login-register">
+          <p>Already have an account?
+            <a href="#" class="login-link">Login</a>
+          </p>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- Agricultural Pumps Banner -->
+  <section class="agri-banner">
+    <div class="agri-banner-content">
+      <h1>Agricultural Water Pumps</h1>
+      <p>Powering your fields with efficient, durable, and reliable water pumps – tailored for farming success.</p>
+
+    </div>
+  </section>
+
+
+  <label for="pumps" style="display: block; text-align: center; font-weight: bold; margin-top: 20px; font-size: 20px;">
+    Select Pump Type
+  </label>
+  <select id="pumps" name="pumps">
+    <!-- <option value=""disabled selected hidden>Choose Option</option> -->
+    <option value="all">Show All</option>
+    <option value="submersible">Submersible Pump</option>
+    <option value="centrifugal">Centrifugal Pump</option>
+    <option value="Borewell">Borewell Pump</option>
+
+  </select>
+
+  <section class="product-grid">
+
+    <h2>Explore Our Agricultural Pump Range</h2>
+    <div class="product-cards">
+      <!--Borawell pump Caterogory  -->
+      <!-- bppump4 -->
+      <div class="product-card" data-type="Borewell">
+        <div class="card-content">
+          <img src="./ProductImages/AgriProductImages/Borewell4.webp" alt="Pump 1">
+          <h3>MBQ22-1PH-14 - Blue</h3>
+          <p>MRP ₹21,999</p>
+        </div>
+        <button class="buy-now">Buy Now</button>
+      </div>
+      <!-- Submissersible pumps category -->
+      <!-- subcard1 -->
+      <div class="product-card" data-type="submersible">
+        <div class="card-content">
+          <img src="./ProductImages/AgriProductImages/product 1.png" alt="Pump 1">
+          <h3>100W25RA5TP-50 - Silver</h3>
+          <p>MRP ₹48,750.00</p>
+        </div>
+        <button class="buy-now">Buy Now</button>
+      </div>
+      <!--Borawell pump Caterogory  -->
+      <!-- bppump1 -->
+      <div class="product-card" data-type="Borewell">
+        <div class="card-content">
+          <img src="./ProductImages/AgriProductImages/Borewell1.webp" alt="Pump 1">
+          <h3>MBQ22-1PH-67 - Black </h3>
+          <p>MRP ₹28,599</p>
+        </div>
+        <button class="buy-now">Buy Now</button>
+      </div>
+      <!-- Submissersible pumps category -->
+      <!-- subcard4 -->
+      <div class="product-card" data-type="submersible">
+        <div class="card-content">
+          <img src="./ProductImages/AgriProductImages/product5.png" alt="Pump 1">
+          <h3>100W15RA3TP-50 - Black </h3>
+          <p>MRP ₹37,750.00</p>
+        </div>
+        <button class="buy-now">Buy Now</button>
+      </div>
+      <!-- Centrifugal pump category -->
+      <!-- cpcard1 -->
+      <div class="product-card" data-type="centrifugal">
+        <div class="card-content">
+          <img src="./ProductImages/AgriProductImages/centriImage1.png" alt="Pump 1">
+          <h3>MBK22 (1PH)-24-Blue </h3>
+          <p>₹18,999</p>
+        </div>
+        <button class="buy-now">Buy Now</button>
+      </div>
+      <!-- Submissersible pumps category -->
+      <!-- subcerd3 -->
+      <div class="product-card" data-type="submersible">
+        <div class="card-content">
+          <img src="./ProductImages/AgriProductImages/product3.png" alt="Pump 1">
+          <h3>100W12RA3TP-50-Silver</h3>
+          <p>MRP ₹35,999</p>
+        </div>
+        <button class="buy-now">Buy Now</button>
+      </div>
+      <!-- Centrifugal pump category -->
+      <!-- cpcard2 -->
+      <div class="product-card" data-type="centrifugal">
+        <div class="card-content">
+          <img src="./ProductImages/AgriProductImages/CentriImage2.png" alt="Pump 1">
+          <h3>MBG12(1PH)-21-Blue</h3>
+          <p> MRP ₹18,999</p>
+        </div>
+        <button class="buy-now">Buy Now</button>
+      </div>
+      <!-- Centrifugal pump category -->
+      <!-- cpcard4 -->
+      <div class="product-card" data-type="centrifugal">
+        <div class="card-content">
+          <img src="./ProductImages/AgriProductImages/CentriImage4.webp" alt="Pump 1">
+          <h3>MAD052(1PH)Y-18+-Red</h3>
+          <p>MRP ₹30,459</p>
+        </div>
+        <button class="buy-now">Buy Now</button>
+      </div>
+
+      <!-- Submissersible pumps category -->
+      <!-- subcard2 -->
+      <div class="product-card" data-type="submersible">
+        <div class="card-content">
+          <img src="./ProductImages/AgriProductImages/product 2.png" alt="Pump 1">
+          <h3>MBQ22-1PH-14-Blue</h3>
+          <p>MRP ₹25,999</p>
+        </div>
+        <button class="buy-now">Buy Now</button>
+      </div>
+      <!--Borawell pump Caterogory  -->
+      <!-- bppump2 -->
+      <div class="product-card" data-type="Borewell">
+        <div class="card-content">
+          <img src="./ProductImages/AgriProductImages/Borewell2.webp" alt="Pump 1">
+          <h3>MBQ22-1PH-45-silver</h3>
+          <p> mrp ₹54,399</p>
+        </div>
+        <button class="buy-now">Buy Now</button>
+      </div>
+      <!-- Centrifugal pump category -->
+      <!-- cpcard3 -->
+      <div class="product-card" data-type="centrifugal">
+        <div class="card-content">
+          <img src="./ProductImages/AgriProductImages/centriImage3.webp" alt="Pump 1">
+          <h3>MBG12(3PHASE)-Blue</h3>
+          <p> MRP ₹48,999</p>
+        </div>
+        <button class="buy-now">Buy Now</button>
+      </div>
+      <!--Borawell pump Caterogory  -->
+      <!-- bppump3 -->
+      <div class="product-card" data-type="Borewell">
+        <div class="card-content">
+          <img src="./ProductImages/AgriProductImages/Borewell3.webp" alt="Pump 1">
+          <h3>MBQ22-2PH-34-Blue</h3>
+          <p>MRP ₹23,459</p>
+        </div>
+        <button class="buy-now">Buy Now</button>
+      </div>
+
+    </div>
+  </section>
+  <!-- why choose -->
+  <section class="why-choose hidden">
+    <h2>Why To Choose PumpSphere Agriculture Pumps</h2>
+    <div class="features">
+      <div class="feature-item">
+        <img src="./ProductImages/AgriProductImages/icon__Wide-Voltage-Design(1)-v1695640401858.webp"
+          alt="Wide Voltage Design">
+        <p>Wide Voltage Design</p>
+      </div>
+      <div class="divider"></div>
+      <div class="feature-item">
+        <img src="./ProductImages/AgriProductImages/Easy-Maintenance-v1695640192966.svg" alt="Easy Maintenance">
+        <p>Easy Maintenance</p>
+      </div>
+      <div class="divider"></div>
+      <div class="feature-item">
+        <img src="./ProductImages/AgriProductImages/Anti-Rust-v1695640215352.webp" alt="Anti Rust">
+        <p>Anti Rust</p>
+      </div>
+    </div>
+  </section>
+
+<!--********************************** buttom arrow********************************** -->
+  <section class="bottom_arrow">
+    <i class="fa-solid fa-arrow-up"></i>
+</section>
+<!--************************************** product popup****************************************** -->
+<!-- Product Modal Section -->
+<section id="productModal" class="modal">
+  <div class="modal-content">
+    <!-- &times for x sign -->
+    <span class="close">&times;</span>
+    <!-- <img id="modalImage" src="./ProductImages/AgriProductImages/Borewell4.webp" alt="Product Image"> -->
+     <img id="modalImage" src="" alt="Product Image">
+   <div class="flexp">
+  <!-- h3,p are empty because closeset will give it based on product-cart info -->
+    <h3 id="modalTitle"></h3>
+    <p id="modalPrice"></p>
+    <p><strong>Payment Mode:</strong> Cash on Delivery</p>
+    
+    <button id="addToCart">Add to Cart</button>
+   </div>
+  </div>
+</section>
+<!--*********************** footer*********************************** -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <img src="./images/PumpSphere-removebg-preview.png" class="footer-logo" alt="">
+        <p>Your trusted partner for smart water pump solutions.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p><i class="fa-solid fa-phone"></i> +91 91XXXXXXXX</p>
+        <p><i class="fa-solid fa-envelope"></i> support@pumpsphere.com</p>
+        <p><i class="fa-solid fa-location-dot"></i> Maharashtra, India</p>
+      </div>
+
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 PumpSphere. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="Login.js"></script>
+  <script src="script.js"></script>
+  <script src="AgriculturalProducts.js"></script>
+
+</body>
+
+</html>

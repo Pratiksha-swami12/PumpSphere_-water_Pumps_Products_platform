@@ -1,0 +1,15 @@
+.agri-banner {
+    /* background: [color] [image] [repeat] [position] / [size] [attachment];
+ */
+  background: url('ProductImages/DomesticImages/What-Are-Water-Pumps.webp') center center / cover no-repeat;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.5rem;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.5s ease-in-out;
+}
